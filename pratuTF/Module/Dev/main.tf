@@ -1,5 +1,5 @@
 module "Devloper_env" {
-  source = "/mnt/c/Users/Anup/Desktop/anupTF/resource/EC2"
+  source = "/mnt/c/Users/Anup/Desktop/pTF/resource/EC2"
   aws_instance_this_ami = "ami-0d2e2d99a673fca16"
   aws_instance_this_instance_type = "t2.micro"
   aws_instance_this_key_pair = "NVanupDelete"
