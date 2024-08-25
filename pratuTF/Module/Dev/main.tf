@@ -16,7 +16,7 @@ module "Devloper_env_VPC" {
   aws_subnet_prod-subnet-public-1_cidr_block = "3.19.0.0/17"
   aws_subnet_prod-subnet-private-2_cidr_block = "3.19.128.0/17"
   aws_subnet_prod-subnet-public-1_map_public_ip_on_launch  = "true"
-  aws_subnet_prod-subnet-public-1_availability_zone = "us-east-1b"
+  aws_subnet_prod-subnet-public-1_availability_zone = "ap-south-1b"
   aws_subnet_prod-subnet-private-2_availability_zone = "us-east-1a" 
   aws_route_table_public_route_table = "0.0.0.0/0"
   #aws_nat_gateway_example_connectivity_type = "private"
