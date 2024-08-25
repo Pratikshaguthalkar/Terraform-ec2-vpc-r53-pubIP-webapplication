@@ -1,5 +1,5 @@
 module "Devloper_env" {
-  source = "/resource/EC2"
+  source = "/home/ubuntu/Terraform-ec2-vpc-r53-pubIP-webapplication/pratuTF/resource/EC2"
   aws_instance_this_ami = "ami-0522ab6e1ddcc7055"
   aws_instance_this_instance_type = "t2.micro"
   aws_instance_this_key_pair = "Cloude1"
