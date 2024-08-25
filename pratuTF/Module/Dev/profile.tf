@@ -1,4 +1,4 @@
-provider "aws" {
+3provider "aws" {
     region = "ap-south-1"
     #profile = "configs"
     
