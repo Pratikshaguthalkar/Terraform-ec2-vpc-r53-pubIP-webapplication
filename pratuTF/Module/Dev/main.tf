@@ -2,7 +2,7 @@ module "Devloper_env" {
   source = "/mnt/c/Users/Anup/Desktop/anupTF/resource/EC2"
   aws_instance_this_ami = "ami-0522ab6e1ddcc7055"
   aws_instance_this_instance_type = "t2.micro"
-  aws_instance_this_key_pair = "NVanupDelete"
+  aws_instance_this_key_pair = "Cloude1"
   #aws_instance_this_security_groups = "sg-0e0c5e2ada8c28466"
   aws_instance_this_subnet_id = module.Devloper_env_VPC.vpc_subnet_id
   aws_instance_this_pub = "true"
