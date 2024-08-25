@@ -2,7 +2,7 @@
  #   region = "ap-south-1"
     #profile = "configs"
     
-}
+#}
 
 required_providers {
         aws = {
