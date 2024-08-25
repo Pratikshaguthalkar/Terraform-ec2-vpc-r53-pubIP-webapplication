@@ -11,7 +11,7 @@ module "Devloper_env" {
 }
 
 module "Devloper_env_VPC" {
-  source = "/mnt/c/Users/Anup/Desktop/anupTF/resource/VPC"
+  source = "/home/ubuntu/Terraform-ec2-vpc-r53-pubIP-webapplication/pratuTF/resource/VPC"
   aws_vpc_main_cidr_block =  "3.19.0.0/16"
   aws_subnet_prod-subnet-public-1_cidr_block = "3.19.0.0/17"
   aws_subnet_prod-subnet-private-2_cidr_block = "3.19.128.0/17"
