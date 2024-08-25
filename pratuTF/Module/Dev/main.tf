@@ -23,7 +23,7 @@ module "Devloper_env_VPC" {
 
 }
 module "Devloper_Route53" {
-  source = "/mnt/c/Users/Anup/Desktop/anupTF/resource/Route53"
+  source = "/home/ubuntu/Terraform-ec2-vpc-r53-pubIP-webapplication/pratuTF/resource/Route53"
   domainName = "techdevops.fun"
   route53_name = module.Devloper_env.ec2_public_ip
 
