@@ -1,2 +1,2 @@
 emi id - ami-0522ab6e1ddcc7055
-key pair  -Cloude1
+key pair  - Cloude1
